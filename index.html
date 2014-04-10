@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="IEEE ISCTE-IUL Student Branch" />
+    <title>FISTA 2014 - Forum of ISCTE-IUL School of Technology and Architecture</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Iniciativa dos alunos e docentes da ISTA em que se pretende catalisar sinergias entre a educação desenvolvida pela Universidade, a investigação e o desenvolvimento científico dos centros de investigação e o trabalho elaborado nas Empresas." />
+    <meta name="og:title" content="FISTA 2014 - Forum of ISCTE-IUL School of Technology and Architecture">
+    <meta name="og:image" content="http://fista.iscte-iul.pt/img/fista-big.png">
+    <meta name="og:description" content="Iniciativa dos alunos e docentes da ISTA em que se pretende catalisar sinergias entre a educação desenvolvida pela Universidade, a investigação e o desenvolvimento científico dos centros de investigação e o trabalho elaborado nas Empresas.">
+    <meta property=”og:type” content=”website” />
+    
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" id="nav" role="navigation">
+      <div class="container">
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div class="collapse navbar-collapse">
+          
+          <ul class="nav navbar-nav">
+            <li><a class="scrolly" href="#banner">Home</a></li>
+            <li><a class="scrolly" href="#concurso">Concurso</a></li>
+            <li><a class="scrolly" href="#programa">Programa</a></li>
+            <li><a class="scrolly" href="#oradores">Oradores</a></li>
+            <li><a class="scrolly" href="#workshops">Workshops</a></li>
+            <li><a class="scrolly" href="#organizacao">Organização</a></li>
+            <li><a class="scrolly" href="#media">Media</a></li>
+            <li><a class="scrolly" href="#footer">Contactos</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </div> 
+
+    <main class="bs-docs-masthead" id="start-image" role="main" >
+      <div class="container">
+      <div class="inner">
+
+        <header>
+          <h1><a href="#" id="logo"><img src="img/fista.png" alt="FISTA" style="max-width:271px;" ></a></h1>
+          <hr style="width:80%;">
+          <span class="byline">Forum of ISCTE-IUL School of Technology and Architecture, <strong>12</strong> e <strong>13</strong> de <strong>Março</strong></span>
+        </header>
+        <footer>
+         <p><small>Main Sponsor:</small> <img src="img/empresas/deloitte.jpg" style="max-width:166px" alt="Deloitte Main Sponsor"></p>
+          <a href="#banner" class="button circled scrolly">Ver mais</a><!-- &nbsp;&nbsp;<a href="http://fista.iscte-iul.pt/insc/InscricaoFISTA.html" target="_blank" class="button">Regista-te!</a> -->
+        </footer>
+      </div>
+      </div>
+    </main>
+
+
+    
+
+    <!-- Begin page content -->
+    <div class="container" style="background:white;">
+      <div id="banner">
+        <h1>FISTA</h1>  
+        <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoFISTA.html" target="_blank" class="button knowMoreBtn">Regista-te!</a></p> -->
+      <p class="byline">Forum of ISCTE-IUL School of Technology and Architecture, <strong>12</strong> e <strong>13</strong> de <strong>Março</strong>.</p>
+      <p><small>Main Sponsor</small></p>
+      <p> <img src="img/empresas/deloitte.jpg" style="max-width:166px" alt="Deloitte Main Sponsor"></p>
+      <p><small>Platinum Sponsor</small></p>
+      <p><img src="img/empresas/pwc.jpg" style="max-height:75px" alt="PWC Sponsor"></p>
+      <p><small>Gold Sponsors</small></p>
+      <p>
+      <a href="http://www.fixeads.com/" target="_blank" title="FixeAds"><img src="img/empresas/fixeads.jpg" alt="Gold Sponsor" class="img-sponsor" > </a>
+      <a href="http://www.opensoft.pt/" target="_blank" title="OpenSoft"><img src="img/empresas/opensoft.jpg" alt="Gold Sponsor" class="img-sponsor" > </a>
+      <a href="http://www.caixamagica.pt/" target="_blank" title="Caixa Mágica"><img src="img/empresas/caixamagica.jpg" alt="Gold Sponsor" class="img-sponsor" > </a>
+      <a href="http://www.innowave-technologies.com/" target="_blank" title="InnoWave"><img src="img/empresas/innowave.jpg" alt="Gold Sponsor" class="img-sponsor" > </a>
+      <a href="http://bee-eng.pt/" target="_blank" title="Bee Engineering"><img src="img/empresas/bee.jpg" alt="Gold Sponsor" class="img-sponsor" > </a>
+      <a href="http://www.ieee-pt.org/" target="_blank" title="IEEE Portugal"><img src="img/empresas/ieee-portugal.jpg" alt="Gold Sponsor" class="img-sponsor" > </a>
+      </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row text-justify">
+        <div class="col-md-4 ">
+          <header>
+            <h3>O que é?</h3>
+          </header>
+          <p>
+            Esta é uma iniciativa que parte dos alunos e docentes da Escola de Tecnologias e Arquitectura (ISTA) em que se pretende catalisar sinergias entre a formação/educação desenvolvida pela Universidade, a investigação e o desenvolvimento científico dos centros de investigação de excelência e o trabalho elaborado no mundo Empresarial. Trata-se de uma linha condutora que tem garantido para os cursos pertencentes a esta escola (ISTA) deste Instituto Universitário uma taxa de empregabilidade total.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <header>
+            <h3>Objectivos</h3>
+          </header>
+          <p>
+            Partilhar a experiência das organizações e focar os desafios de investigação e desenvolvimento interdisciplinar sobre vários aspectos das tecnologias da informação e comunicação.
+          </p>
+          <p> 
+            Focar as oportunidades lançadas pelas novas tecnologias de informação e de comunicação às organizações que actuam cada vez mais em ambientes globais e voláteis.
+          </p>
+          <p> 
+            Aproximação dos estudantes às realidades concretas dos grandes agentes económicos.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <header>
+            <h3>Participantes</h3>
+          </header>
+          <p >
+            Todos os alunos, de todas as universidades, dentro das áreas de Engenharia Informática, Informática e Gestão, Telecomunicações e Arquitectura.
+          </p>
+          <p><small>Ver descrição detalhada: <strong><a href="explicacao-fista.pdf" target="_blank" >download</a></strong></small></p>
+        </div>
+      </div>
+      <div class="row">
+
+      <div class="jcarousel-wrapper">
+      <div class="jcarousel empresas">
+      <ul><li>
+            <img src="img/empresas/microsoft.jpg" alt="" class="image " />
+          </li>
+          <li>
+            <img src="img/empresas/rupeal.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/agap2.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/samsung.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/novabase.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img style="margin-top:15px;" src="img/empresas/multicert.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/caixamagica.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/innowave.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/cisco.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/deloitte.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/dell.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/fixeads.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/opensoft.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/ibm.jpg" alt="" class="image "/>
+          </li>
+          <li>
+            <img src="img/empresas/bee.jpg" alt="" class="image "/>
+          </li>
+          
+          
+      </ul>
+      </div>
+       <!--  <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+        <a href="#" class="jcarousel-control-next">&rsaquo;</a> -->
+      </div>
+
+
+
+      </div>
+    </div>
+
+      <div id="concurso" class="blue" >
+        <header>
+          <img src="img/sleeping-project.jpg" class="img-responsive image" alt="The sleeping project">
+        </header>   
+        <span class="byline" >
+          O FISTA em parceria com a Escola de Tecnologias e Arquitectura e o VFABLAB, desafia-te a criares um Módulo Móvel para Descanso Temporário que envolva elementos das duas áreas de estudo.<br />
+          Junta-te a outros colegas da Escola de Tecnologias e Arquitectura e participa!<br />
+          Temos prémios no valor de 1000€ para os vencedores e a possibilidade de construção da melhor proposta!
+        </span>
+        
+        <br />
+        <a href="regulamento-fista-concurso.pdf" target="_blank" class="button knowMoreBtn">Sabe mais!</a>
+        <!-- <a href="mailto:fista@iscte.pt?subject=Concurso" class="button knowMoreBtn">Inscreve-te!</a> -->
+        <br />
+        <br />
+      </div>
+
+      <div  >
+       <div class="container">
+        <header id="programa" >
+          <h1>Programa</h1>
+        </header>   
+        <small>programa sujeito a alterações</small>
+      
+        <div class="row">
+        <div class="col-md-8 col-md-offset-2" >
+
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#firstday" data-toggle="tab"><strong>12 de Março</strong></a></li>
+          <li><a href="#secondday" data-toggle="tab"><strong>13 de Março</strong></a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="firstday">
+
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              9.00
+            </div>
+            <div class="col-md-8">
+              Recepção
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              9.30
+            </div>
+            <div class="col-md-8">
+              <big>Sessão de Abertura</big><small> (Grande Auditório)</small><br>
+              <strong>Luis Reto</strong><br>
+              <em>Reitor ISCTE - Instituto Universitário de Lisboa</em>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              9.45
+            </div>
+              <div class="col-md-8">
+              <big>Sapo</big><br>
+              <strong>Celso Martinho</strong><br>
+              <em>CTO</em><br>
+              <small>Chairperson Américo Correia</small>
+            </div>
+             </div>
+              
+          <div class="row padding">
+            <div class="col-md-4">
+              10.15
+            </div>
+            <div class="col-md-8">
+              <big>Microsoft</big><br>
+              <strong>Alexandre Pinho</strong><br>
+              <em>Diretor do Setor Público</em>
+              <br>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 ">
+              10.45
+            </div>
+            <div class="col-md-8">
+              <em>Coffee-break por</em> <img src="img/empresas/pwc.jpg" style="max-height:35px" alt="PWC Sponsor">
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 ">
+              11.00
+            </div>
+            <div class="col-md-8">
+            <div class="row">
+              <big>Comunicação e Segurança</big> <small> (Grande Auditório)</small>
+              <br>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-sm-12">
+                <strong>Deloitte</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <strong>IBM</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <strong>InnoWave</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <strong>IEEE + NAU</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <small>Chairperson Américo Correia</small>
+              </div>
+            </div>  
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              12.30
+            </div>
+            <div class="col-md-8">
+              <em>Pausa para almoço</em>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              14.00
+            </div>
+            <div class="col-md-8">
+            <div class="row">
+              <big>Workshops</big>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-sm-6">
+                <strong>Google Students</strong>
+              </div>
+              <div class="col-sm-6 col-sm-6">
+                <strong>Novabase</strong>
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-sm-6 col-sm-6">
+                <strong>AGAP2</strong>
+              </div>
+              <div class="col-sm-6 col-sm-6">
+                <strong>Multicert</strong>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-sm-6">
+                <strong>Caixa Mágica</strong>
+              </div>
+              <div class="col-sm-6 col-sm-6">
+                <strong>Samsung</strong>
+              </div>
+            </div>  
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              16.00
+            </div>
+            <div class="col-md-8">
+              <big>Aula Aberta</big> <small> (Grande Auditório)</small><br>
+              <strong>Arq. Josep LLinás</strong>
+            </div>
+          </div>            
+
+          </div>
+          <div class="tab-pane" id="secondday">
+            
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              9.00
+            </div>
+            <div class="col-md-8">
+              Recepção
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              9.30
+            </div>
+            <div class="col-md-8">
+              <big>Sessão de Abertura</big><small> (Grande Auditório)</small><br>
+              <strong>Ricardo Fonseca</strong><br>
+              <em>Director ISTA</em>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              9.45
+            </div>
+            <div class="col-md-8">
+              <big>Cisco</big><br>
+              <strong>Carlos Brazão</strong><br>
+              <em>Director Sénior de Vendas e Marketing da Cisco Capital para a Europa, Médio Oriente, África e Rússia</em><br>
+              <small>Chairperson Francisco Cercas</small>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              10.15
+            </div>
+            <div class="col-md-8">
+              <big>Nokia Solutions Networks</big><br>
+              <strong>Marta Almeida</strong><br>
+              <em>Gestora de Conta</em>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              10.45
+            </div>
+            <div class="col-md-8">
+              <em>Coffee-break</em>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              11.00
+            </div>
+            <div class="col-md-8">
+            <div class="row">
+              <big>Outsourcing</big><small> (Grande Auditório)</small>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-sm-12">
+                <strong>Deloitte</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <strong>RUPEAL</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <strong>Dell</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <strong>Novabase</strong>
+              </div>
+              <div class="col-sm-12 col-sm-12">
+                <small>Chairperson Francisco Cercas</small>
+              </div>
+            </div>  
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              12.30
+            </div>
+            <div class="col-md-8">
+              <em>Pausa para almoço</em>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              14.00
+            </div>
+            <div class="col-md-8">
+            <div class="row">
+              <big>Debate<small> (Grande Auditório)</small> <br> Académicos, empresas e empreendedores discutem o futuro</big>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-sm-4">
+                <strong>Miguel Duarte</strong>
+              </div>
+              <div class="col-sm-4 col-sm-4">
+                <strong>Tiago Marques</strong>
+              </div>
+              <div class="col-sm-4 col-sm-4">
+                <strong>Nuno Teodoro</strong>
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-sm-4 col-sm-4 col-sm-offset-2 col-sm-offset-2">
+                <strong>João Morgado</strong>
+              </div>
+              <div class="col-sm-4 col-sm-4">
+                <strong>Miguel Carreiro</strong>
+              </div>
+            </div>  
+            </div> 
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              &nbsp;
+            </div>
+            <div class="col-md-8">
+              <big>Apresentação ISTA</big><br>
+              <strong>Luis Ducla Soares (DCTI) <br>
+              Sara Elloy (DAU)
+               </strong>
+            </div>
+          </div>
+          <div class="row padding">
+            <div class="col-md-4 col-sm-4">
+              16.15
+            </div>
+            <div class="col-md-8">
+            <big>Entrega de Diplomas e Porto de Honra</big>
+            </div>
+          </div>
+
+
+
+          </div>
+        </div>
+<br>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div id="oradores" class="grey" >
+      <div class="container">
+        <header>
+          <h1>Oradores</h1>
+        </header> 
+        
+        <div class="row ">
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#alexandre-pinho"><img src="img/oradores/Alexandre-Pinho.jpg" name="Alexandre Pinho Microsoft" class="img-responsive"></a>
+        <h3>Alexandre Pinho</h3>
+        <em>Diretor do Setor Público, Microsoft Portugal</em>
+        </center>
+        </div>
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#celso-martinho"><img src="img/oradores/celso.jpg" name="SAPO " class="img-responsive"></a>
+        <h3>Celso Martinho</h3>
+        <em>CTO, SAPO</em>
+        </center>
+        </div>
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#carlos-brazao"><img src="img/oradores/Carlos-Brazao.jpg" class="img-responsive"></a>
+        <h3>Carlos Brazão</h3>
+        <em>Director Sénior de Vendas e Marketing para a Europa, Médio Oriente, África e Rússia, Cisco Capital</em>
+        </center>
+        </div>
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#marta-almeida"><img src="img/oradores/marta.jpg" class="img-responsive"></a>
+        <h3>Marta Almeida</h3>
+        <em>Gestora de Conta, Nokia Solutions Networks</em>
+        </center>
+        </div>
+        
+        </div>
+
+        <div class="row">
+
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#josep"><img src="img/oradores/josep.png" name="Josep Llinás" class="img-responsive"></a>
+        <h3>Josep Llinás</h3>
+        <em>Professor da Escola Técnica Superior de Arquitectura de Barcelona</em>
+        </center>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#pedro-lemos"><img src="img/oradores/lemos.jpg" class="img-responsive"></a>
+        <h3>Pedro Lemos</h3>
+        <em>Manager and Integration Consulting Business, Deloitte</em>
+        </center>
+        </div>
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#aragao-rio"><img src="img/oradores/Aragao-Rio.jpg" class="img-responsive"></a>
+        <h3>Aragão Rio</h3>
+        <em>Responsável na Área de Content Management, Dell</em>
+        </center>
+        </div>
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#pedro-galvao"><img src="img/oradores/pedro-galvao.png" name="Rajés Liladar" class="img-responsive"></a>
+        <h3>Pedro Galvão</h3>
+        <em>Senior Managing Consultant, IBM</em>
+        </center>
+        </div> 
+
+            
+        
+        </div>
+
+
+        <div class="row">
+        
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#rajes"><img src="img/oradores/rajes.jpg" name="Rajés Liladar" class="img-responsive"></a>
+        <h3>Rajés Liladar</h3>
+        <em>Senior Manager Consulting, Deloitte</em>
+        </center>
+        </div>    
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#duarte-fonseca"><img src="img/oradores/duarte.jpg" name="Duarte Fonseca" class="img-responsive"></a>
+        <h3>Duarte Fernandes</h3>
+        <em>Business Unit Director, RUPEAL</em>
+        </center>
+        </div>
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#barbara-chambel"><img src="img/oradores/barbara.jpg"  class="img-responsive"></a>
+        <h3>Bárbara Chambel</h3>
+        <em>Manager IT Contracting, Novabase</em>
+        </center>
+        </div>
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#tiago-marques"><img src="img/oradores/tiago.jpg" name="Nuno Teodoro" class="img-responsive"></a>
+        <h3>Tiago Marques</h3>
+        <em>CEO, Meteor Minds</em>
+        </center>
+        </div>
+
+        
+
+        
+          
+        </div>
+
+        <div class="row">
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#joao-morgado"><img src="img/oradores/joao-morgado.jpg" name="Nuno Teodoro" class="img-responsive"></a>
+        <h3>João Morgado</h3>
+        <em>Fotografo de Arquitectura</em>
+        </center>
+        </div>
+
+        <div class="col-md-3 col-sm-3 ">
+        <center>
+        <a href="#about" data-toggle="modal" data-target="#nuno-teodoro"><img src="img/oradores/Nuno-Teodoro.png" name="Nuno Teodoro" class="img-responsive"></a>
+        <h3>Nuno Teodoro</h3>
+        <em>Consulting Unit Manager, Layer 8</em>
+        </center>
+        </div>
+
+        <div class="col-md-3 col-sm-3 ">
+          <center>
+          <a href="#about" data-toggle="modal" data-target="#miguel-duarte"><img src="img/oradores/miguel-duarte.jpg" name="Nuno Teodoro" class="img-responsive"></a>
+          <h3>Miguel Duarte</h3>
+          <em>Doutorando em Engenharia Informática, ISCTE-IUL</em>
+          </center>
+          </div>
+
+          <div class="col-md-3 col-sm-3 ">
+          <center>
+          <a href="#about" data-toggle="modal" data-target="#miguel-carreiro"><img src="img/oradores/carreiro.jpg" name="Nuno Teodoro" class="img-responsive"></a>
+          <h3>Miguel Carreiro</h3>
+          <em>Doutorando em Arquitectura dos Territórios Metropolitanos Contemporâneos, ISCTE-IUL</em>
+          </center>
+          </div>
+
+        </div>
+
+        </div>
+
+<div class="modal fade" id="alexandre-pinho" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/Alexandre-Pinho.jpg" name="aboutme" class="img-responsive">
+            <h3 class="media-heading">Alexandre Pinho <small>Microsoft</small></h3>
+            <em>Diretor do Setor Público</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+                Alexandre Pinho é o Diretor do Setor Público na Microsoft Portugal, tendo a seu cargo a liderança da estratégia de negócio e o relacionamento com as entidades do Governo, Administração Pública e Educação. A seu cargo tem, ainda, a responsabilidade de identificar e criar novas oportunidades de negócio e de crescimento em Portugal. Licenciado em Informática e Investigação Operacional pela Faculdade de Ciências da Universidade de Lisboa, tem mais de 17 anos de experiência profissional e uma vasta experiência na definição de estratégias de negócio, coordenação e gestão de operações em diferentes setores de atividade do Setor Público. É casado e pai de dois filhos, de 7 e 2 anos de idade.</p>
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="pedro-galvao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/pedro-galvao.png" name="aboutme" class="img-responsive">
+            <h3 class="media-heading">Pedro Galvão <small>IBM</small></h3>
+            <em>Senior Managing Consultant</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+                Pedro Galvão é responsável pelos serviços de segurança da IBM Portugal. Tem 18 anos de experiência em tecnologias de informação 16 dos quais em segurança da informação. As suas áreas de especialidade são a gestão de risco e a arquitectura de sistemas. </p>
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="celso-martinho" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/celso.jpg" name="aboutme" class="img-responsive">
+            <h3 class="media-heading">Alexandre Pinho <small>Microsoft</small></h3>
+            <em>Diretor do Setor Público na Microsoft Portugal</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+            Celso Martinho, ex-aluno de Electrónica na Universidade de Aveiro e ex-colaborador do Centro de Informática da UA onde, em conjunto com outros cinco colegas, criou o S.A.P.O. - Serviço de Apontadores Portugueses. Entre outras actividades foi ainda co-fundador do mail.pt e zip.net. Atualmente é CTO (Chief Technology Officer) do SAPO e membro do conselho de administração da PT Inovação. <small>(Source: http://www.ua.pt/ieua/PageText.aspx?id=15128)</small>    
+            </p>
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="pedro-lemos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/lemos.jpg" name="aboutme" class="img-responsive">
+            <h3 class="media-heading">Pedro Lemos <small>Deloitte</small></h3>
+            <em>Manager and Integration Consulting Business</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+                Pedro is a Manager in Deloitte’s Technology and Integration Consulting business. He has worked for a range of clients in the Financial Services Industry. He specialises in systems integration projects, including business analysis, solution architecture and bespoke development.</p>
+            <p class="text-justify">Whilst currently specialising in the implementation of integration projects, his business analysis skills and experience, means he is positioned to provide a key link between business and technical teams.</p>
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="modal fade" id="nuno-teodoro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/Nuno-Teodoro.png" alt="Nuno Teodoro" class="img-responsive">
+            <h3 class="media-heading">Nuno Teodoro <small>Layer8</small></h3>
+            <em>Consulting Unit Manager</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+                Nuno Teodoro, 28 anos, Licenciado em Engenharia Informática pelo ISCTE-IUL em 2009. Mestre em Engenharia Informática pelo ISCTE-IUL em 2011.</p>
+                <p class="text-justify">Especialização na dissertação de mestrado no tema “Web Applications Security”, tendo sido distinguido com o prémio Academic M.Sc. Excellence Award pelo ISCTE-IUL em 2010 e “Best Master Degree Student” pela Caixa Geral de Depósito e Academic ExcellenceScholarship pela DGES em 2011.</p>
+                <p class="text-justify">Actualmente é responsável da área de Consultoria da Layer8, tendo como principais responsabilidades a gestão da área e da equipa de consultoria, assim como a participação directa no apoio a CTSOs, CSOs e CIOs em projectos críticos de segurança de informação.</p>
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="carlos-brazao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/Carlos-Brazao.jpg" alt="Carlos Brazão CISCO" class="img-responsive">
+            <h3 class="media-heading">Carlos Brazão <small>CISCO</small></h3>
+            <em>Director Sénior de Vendas e Marketing da Cisco Capital para a Europa, Médio Oriente, África e Rússia</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+                Carlos Brazão é o Director Sénior de Vendas e Marketing da Cisco Capital para a Europa, Médio Oriente, África e Rússia (EMEAR), liderando uma organização de especialistas que combinam experiência em modelos de negócio e soluções de financiamento com um conhecimento abrangente da tecnologia Cisco. A Cisco Capital gere uma carteira global de activos de aproximadamente US$ 10.000 milhões.</p>
+ 
+                <p class="text-justify">Anteriormente, Carlos Brazão liderou o vertical do Sector Público para a Cisco na região EMEAR, onde foi responsável pelo desenvolvimento de negócios para o Governo Central e Local, Educação, Saúde, Defesa e Segurança. De 2003 a 2011, Carlos Brazão foi Director-Geral da Cisco Portugal. Durante este período Portugal foi seleccionado para acolher diversos Centro Europeus de Operações da Cisco que hoje empregam centenas de pessoas. Em 2005, Carlos Brazão foi nomeado Director-Geral do Ano da Cisco EMEAR.</p>
+                 
+                <p class="text-justify">Antes de ingressar na Cisco, Carlos Brazão foi Director-Geral na Dell Computers em Portugal, onde foi responsável pela criação da subsidiária local. Com uma carreira profissional de mais de 25 anos sobretudo em empresas de tecnologia de informação e de comunicação, Carlos Brazão ocupou posições de liderança com a Ericsson, a Reuters, a Siemens e a Global One / Sprint.</p>
+                 
+                <p class="text-justify">Licenciado em Engenharia Electrónica e de Telecomunicações pelo Instituto Superior Técnico, tem ainda um MBA pela Universidade Nova de Lisboa.</p>
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="aragao-rio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/Aragao-Rio.jpg" alt="Aragao Rio Dell" class="img-responsive">
+            <h3 class="media-heading">Aragão Rio <small>Dell</small></h3>
+            <em>Responsável na Área de Content Management</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+                Atualmente, na DELL responsável pela área de Content Management (Storage), É responsável por apoiar as equipas comerciais na avaliação, conceção, planeamento e implementação de soluções ligadas às áreas de proteção e mobilidade de informação (Storage). É também responsável pela gestão e coordenação de equipas, definição de recursos Dell e não Dell, responsável pelo calendário dos projetos técnicos.</p>
+                <p class="text-justify">Anteriormente geriu a equipa de serviços e consultoria de infraestruturas globais (GICS – Global infraestruture Consulting Services) na Ibéria.</p>
+                <p class="text-justify">Com 47 Anos tem 22 Anos de experiencia profissional nas áreas das tecnologias de informação.
+                Licenciado em Gestão de sistemas e tecnologias de informação pela UATLA (Universidade Atlântica)
+                Mestrado em Gestão pelo ISG (Instituto Superior de Gestão).</p>
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="miguel-duarte" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/miguel-duarte.jpg" alt="Miguel Duarte ISCTE-IUL" class="img-responsive">
+            <h3 class="media-heading">Miguel Duarte<small>ISCTE-IUL</small></h3>
+            <em>Doutorando em Engenharia Informática</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+               Miguel Duarte, Licenciado e Mestre em Engª Informática pelo ISCTE-IUL, encontra-se a frequentar o 3º ano do Programa Doutoral em Ciências e Tecnologias da Informação, também no ISCTE-IUL. A sua investigação incide na área da Robótica Evolucionária, onde aplica técnicas inspiradas na Biologia de forma a sintetizar automaticamente controladores robóticos.</p>
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="josep" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/josep.png" alt="Josep Llinas" class="img-responsive">
+            <h3 class="media-heading">Josep Llinás <small>Arquiteto</small></h3>
+            <em>Professor da Escola Técnica Superior de Arquitectura de Barcelona</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+               Josep Llinás i Carmona (n. 1945) é Professor da Escola Técnica Superior de Arquitectura de Barcelona e de Vallés. Publicou estudos sobre José Maria Jujol e José Antonio Coderch, colaborou em diversos projectos de Alejandro de la Sota, como a construção do edifício da embaixada de Espanha em Paris. Josep Llinás obteve o prémio Cidade de Barcelona, em 1995 com o seu edifício de habitação da Calle Carmen em Barcelona e em 2006 o Premio Nacional de Arquitectura e Espaço Público concedido por a Generalidad de Catalunha pela Biblioteca Jaume Fuster. A sua obra foi igualmente por três vezes distinguida com o prémio FAD, em 1976 na categoria de interiorismo, em 1996 com a reabilitação do teatro Metropol em Tarragona e em 2006 com a Biblioteca Jaume Fuster de Barcelona. Em 2012, presidiu ao júri internacional do Prémio Europeu  de Espaço Público Urbano.</p>
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="rajes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/rajes.jpg" alt="Rajés Liladar " class="img-responsive">
+            <h3 class="media-heading">Rajés Liladar <small>Deloitte</small></h3>
+            <em>Senior Manager Consulting</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+            Rajés Liladar é Senior Manager da divisão de Consulting da Deloitte para as indústrias de Technology, Media & Telecomunications, Life Sciences & Health Care, Public Sector, Tourism, e Real Estate, com responsabilidade no desenvolvimento da oferta de serviços de  Enterprise Applications.</p>
+            <p class="text-justify">É Licenciado em Organização e Gestão de Empresas pelo Instituto Superior das Ciências do Trabalho e da Empresa (ISCTE).</p>
+            <p class="text-justify">Com mais de 20 anos de experiência profissional, tem colaborado em diferentes contextos com várias organizações nacionais de referência, onde esteve envolvido em projectos de implementação de sistemas integrados de gestão, dos quais se destacam as soluções de referência como SAP e  ORACLE e-Business Suite (Oracle ebs), projectos de desenvolvimento à medida de soluções e projectos específicos em áreas como IT Strategy e Enterprise Application Architecture.</p>
+            <p class="text-justify">Está na Deloitte desde Agosto de 2007, tendo sido responsável pelo desenvolvimento de uma área de SAP Application Management Services (SAP AMS) e em 2011 transitou para a área de consultoria Enterprise Applications onde é responsável pelo desenvolvimento da oferta e realização de projectos de inovação onde a componente tecnológica constitui base da solução.</p>
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="duarte-fonseca" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/duarte.jpg" alt="Duarte Fernandes " class="img-responsive">
+            <h3 class="media-heading">Duarte Fernandes <small>RUPEAL</small></h3>
+            <em>Business Unit Director</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+            De origem sadina, Duarte Fernandes (30 anos) é Mestrado em Psicologia Organizacional e desde cedo esteve ligado a projectos empreendedores. Desde a fundação da POWER Consulting (1ª Junior Empresa Europeia na área da Psicologia), passando pelo inicio da M-Search (empresa de Executive Search detida pelo Grupo Espírito Santo), foi também um dos elementos que esteve na génese da Upgrade-M (Empresa de Outsourcing para IT e TELCO detida pelo Grupo Espírito Santo).</p>
+            <p class="text-justify">Actualmente é responsável pela unidade de Staffing na RUPEAL, na qual gere 3 Managers e mais de 50 consultores na área das tecnologias da informação.</p>
+            <p class="text-justify">É contribuidor assíduo com artigos de opinião e em blogs nas áreas da Gestão, Liderança, Trabalho e Comportamento Organizacional.</p>
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="modal fade" id="marta-almeida" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/marta.jpg" alt="Marta Almeida " class="img-responsive">
+            <h3 class="media-heading">Marta Almeida <small>Nokia Solutions Networks</small></h3>
+            <em>Gestora de Conta</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+           Marta Almeida é atualmente gestora de conta na Nokia Solutions Networks Portugal , tendo como principais responsabilidades a definição da estratégia de negócio na área de Mobile Broadband e relacionamento com as operadoras de telecomunicações nacionais.</p>
+           <p class="text-justify">Licenciada em Engenharia Física Tecnológica pelo Instituto Superior Técnico, tem mais de 15 anos de experiência profissional na área das Telecomunicações e uma vasta experiência na definição de soluções tecnológicas na área de Redes Móveis, coordenação e gestão de  projectos a nível nacional e internacional.</p> 
+           <p class="text-justify">É casada e mãe de três filhos.</p> 
+
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="modal fade" id="barbara-chambel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/barbara.jpg" alt="Bárbara Chambel " class="img-responsive">
+            <h3 class="media-heading">Bárbara Chambel <small>Novabase</small></h3>
+            <em>Manager IT Contracting</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+           Licenciada em Psicologia Social e das Organizações – ISCTE
+           <p class="text-justify">Pós-graduação em Novas Tecnologias na Gestão de Recursos Humanos – INDEG Business School</p> 
+           <p class="text-justify">Curso Geral de Gestão – Universidade Nova de Lisboa</p> 
+           <p class="text-justify">13 anos de experiência profissional na área do recrutamento e gestão de pessoas em IT</p> 
+           <p class="text-justify">Gere atualmente uma unidade de negócio de IT Contracting com cerca de 100 pessoas, endereçando os mercados de Financial Services e Energy & Utilities</p> 
+
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="tiago-marques" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/tiago.jpg" alt="Tiago Marques" class="img-responsive">
+            <h3 class="media-heading">Tiago Marques <small>Meteor Minds</small></h3>
+            <em>CEO</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+           Tiago Marques, licenciado em engenharia informática no ISCTE-IUL, segue os estudos para o Mestrado no ramo de Multimédia na mesma instituição. </p>
+           <p class="text-justify">No final de 2013 junta-se com dois colegas e cria a Meteor Minds, uma startup inovadora na área das Tecnologias de Informação e Comunicação, apostando em criar coisas surpreendentes, geradoras de valor, que quebrem fronteiras e nos levem mais longe. Quer continuar a construir o Futuro fazendo dele parte do nosso dia-a-dia.</p>
+
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="joao-morgado" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/joao-morgado.jpg" alt="João Morgado" class="img-responsive">
+            <h3 class="media-heading">João Morgado <small>&nbsp;</small></h3>
+            <em>Fotografo de Arquitectura</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+           João Morgado é fotografo de arquitectura e colabora actualmente com alguns dos mais prestigiados arquitectos nacionais e internacionais, nomeadamente Álvaro Siza Vieira, Eduardo Souto de Moura, Wiel Arets, entro muitos outros. Os seus trabalhos fotográficos são publicados regularmente em diversas revistas internacionais, sendo representado pelas reconhecidas agências VIEW Pictures, ARCAID e ARTUR Images. </p>
+           <p class="text-justify">Em 2013, introduz uma nova abordagem à fotografia de arquitectura, através da Fotografia Aérea de Arquitectura utilizando drones controlados remotamente. </p>
+           <p class="text-justify">O website - <a href="http://joaomorgado.com" title="João Morgado"></a> joaomorgado.com - conta já com mais de 200 reportagens online, 700 publicações internacionais e parcerias com editores de mais de 60 países.</p>
+           <p class="text-justify">João Morgado, 29 anos, Mestrado em Arquitectura pelo ISCTE-IUL em 2008.</p>
+
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="miguel-carreiro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <center>
+            <img src="img/oradores/carreiro.jpg" alt="Miguel Carreiro" class="img-responsive">
+            <h3 class="media-heading">Miguel Carreiro <small>ISCTE-IUL</small></h3>
+            <em>Doutorando em Arquitectura dos Territórios Metropolitanos Contemporâneos</em>
+            </center>
+            <p class="text-justify"><strong>Bio: </strong><br>
+           Miguel Baptista Tavares Carreiro é Arquitecto, licenciado em Arquitectura pela Faculdade de Arquitectura da Universidade do Porto (FAUP). Obteve este grau académico após apresentar a sua Tese de Licenciatura de estudo e investigação sobre Espaço, Tempo e Arquitectura intitulada Do Finito ao Infinito. Percepções do Espaço. Encontra-se actualmente a desenvolver a sua tese de doutoramento, inserido no programa doutoral Arquitectura dos Territórios Metropolitanos Contemporâneos do ISCTE-IUL, sob o título PlayArch. Interactive Architecture Environments.</p>
+
+          <p class="text-justify">Ao longo dos últimos 14 anos desempenhou os papeis de Investigador, Arquitecto e Arquitecto Estagiário em  Ateliers de destaque no panorama internacional da Arquitectura como os de Roberto Collovà (Palermo, Itália), Josep Llinás (Barcelona, Espanha), CLOUD 9/ Enric Ruiz Geli (Barcelona, Espanha) e Bruno Soares Arquitectos (Lisboa, Portugal).</p>
+
+          <p class="text-justify">Foi colaborador em projectos e obras de Arquitectura como a Biblioteca Jaume Fuster, a Adega em Mendívil, o Edifício SED ou a emblemática Villa NURBS, projecto e obra durante o qual trabalhou ainda com o Filósofo Paul Virílio e com o Arquitecto Kengo Kuma. Foi organizador da exposição New Trends of  Architecture e das conferências que a precederam e que contaram com a presença dos arquitectos François Roche e Winny Mass. Desenvolveu e registou ainda patentes de sistemas construtivos em nome de CLOUD 9.</p>
+
+          <p class="text-justify">Os projectos em que participou por conta própria e por conta de outrém foram amiúde alvos da atribuição de prémios e de destaque em exposições e publicações de âmbito nacional e internacional. Foi ainda autor e autor/co-autor por conta de outrém de artigos publicados nas mais importantes revistas do panorama nacional e internacional do ramo da Arquitectura.</p>
+
+          <p class="text-justify">Os seus principais interesses no domínio da Investigação são os Sistemas Interactivos, a Arquitectura e Computação, a Programação Informática, as Tecnologias da Informação e Comunicação, o estudo da Percepção dos Espaços de Arquitectura e a Teoria da Arquitectura enquanto Pensamento, Filosofia e Actualidade do Homem.</p>
+
+
+        </div>
+        <div class="modal-footer">
+            <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </center>
+        </div>
+    </div>
+</div>
+</div>
+
+        <br>
+      </div>
+
+
+
+
+      <div id="workshops" >
+        <header>
+          <h1>Workshops</h1>
+        </header>   
+        
+        <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+          <div class="thumbnail">
+            <img src="img/workshops/google-students.png" style="max-width:250px;"  alt="Google Students">
+          
+          
+            <h3>Oportunidades de emprego na Google <br><small>B103 - 14.00</small></h3>
+            <p>André Freitas, Google Student Ambassador</p>
+            <p>Organização com as ferramentas da Google e oportunidades de Emprego na Google com VideoChamada de uma Googler.</p>
+            
+            <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoGoogle.html" target="_blank" class="button knowMoreBtn">Registar</a></p> -->
+         
+          </div>
+          </div>
+        
+
+          <div class="col-md-4 col-sm-4">
+          <div class="thumbnail">
+            <img src="img/workshops/novabase.jpg" style="max-width:250px;" alt="Novabse">
+          
+            <h3>Business Intelligence <small>C104 - 14.00</small></h3>
+            <p>Ana Cristina Marques e Tiago Moreiras, Novabase</p>
+         <br>
+         <br>
+         <br>
+         <br>
+
+            <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoNovabase.html" target="_blank" class="button knowMoreBtn">Registar</a></p> -->
+            
+          </div>
+          </div>
+
+        <div class="col-md-4 col-sm-4">
+        <div class="thumbnail">
+            <img src="img/workshops/agap2.jpg" style="max-width:250px;" alt="Multicert">
+          
+          
+
+            <h3>Desenvolvimento Móvel em Tecnologias Windows <br><small>C104 - 15.30</small></h3>
+            <p>AGAP2</p>
+            <p>Uma mini-aula de desenvolvimento de aplicações mobilidade em tecnologias Windows.</p>
+          
+            <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoAgap2.html" target="_blank" class="button knowMoreBtn">Registar</a></p> -->
+
+          </div>
+          </div>
+
+        </div>
+
+          
+ <div class="row">
+
+ <div class="col-md-4 col-sm-4">
+          <div class="thumbnail">
+            <img src="img/workshops/multicert.jpg" style="max-width:250px;" alt="Multicert">
+           
+          
+            <h3>PKI, uma introdução <small>B103 - 15.30</small></h3>
+            <p>Vitor Fernandes, Multicert</p>
+            <p>Uma abordagem geral e prática aos conceitos que envolvem uma PKI. A ideia passará por tentar aproximar as pessoas à realidade da criptografia numa perspetiva de experimentação.</p>
+            
+            <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoMulticert.html" target="_blank" class="button knowMoreBtn">Registar</a></p> -->
+         
+          </div>
+        </div>
+
+
+          <div class="col-md-4 col-sm-4">
+          <div class="thumbnail">
+            <img src="img/workshops/caixa.jpg" style="max-width:250px;" alt="Caixa Mágica">
+          
+            <h3>Personalização ROM's Android <small>C104 - 17.00</small></h3>
+            <p>Flávio Moringa, Caixa Mágica</p>
+            <p>O core do workshop será a edição de ROM's android, de forma a conseguirmos personalizar a mesma, especificamente para cada dispositivo.</p>
+
+            <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoCaixaMagica.html" target="_blank" class="button knowMoreBtn">Registar</a></p> -->
+         
+          </div>
+          </div>
+
+
+         
+          
+
+        <div class="col-md-4 col-sm-4">
+          <div class="thumbnail">
+            <img src="img/workshops/samsung.jpg" style="max-width:250px;" alt="Samsung">
+          
+            <h3>Android Knox <small>B104 - 17.00</small></h3>
+            <p>Renato Sequeira, Samsung</p>
+
+            <br>
+         <br>
+         <br>
+
+            <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoSamsung.html" target="_blank" class="button knowMoreBtn">Registar</a></p> -->
+            
+         </div>
+          </div>
+
+
+
+        </div>
+
+
+
+</div>
+
+
+
+        
+        <br />
+      </div>
+
+
+      <div id="organizacao" class="grey" style="overflow: hidden;" >
+        <header>
+          <h1>Organização</h1>
+        </header>   
+          
+<div class="jcarousel-wrapper">
+                <div class="jcarousel organizacao">
+                  
+
+                
+
+
+<ul>
+    <li>      
+      <h1 class="vertical">Alunos</h1>
+    </li>
+    <li>
+      <img src="img/org/marco.jpg" alt="" class="image perfil" />
+      <p>Marco Carvalho</p>
+      <img src="img/org/vasco.jpg" alt="" class="image perfil"/>
+      <p>Vasco Costa</p>
+
+    </li>
+    <li>
+      <img src="img/org/paulo.jpg" alt="" class="image perfil"/>
+      <p>Paulo Teixeira</p>
+      <img src="img/org/ramos.png" alt="" class="image perfil"/>
+      <p>Diogo Ramos</p>
+    </li>
+    <li>
+      <img src="img/org/mike.jpg" alt="" class="image perfil"/>
+      <p>Miguel Duarte</p>
+      <img src="img/org/joana.jpg" alt="" class="image perfil" />
+      <p>Joana Fernandes</p>
+
+    </li>
+    <li>
+      <img src="img/org/fabio.jpg" alt="" class="image perfil"/>
+      <p>Fábio Paulino</p>
+      <img src="img/org/adriano.jpg" alt="" class="image perfil"/>
+      <p>Adriano Fernandes</p>
+
+    </li>
+    <li>
+      <img src="img/org/joana2.jpg" alt="" class="image perfil"/>
+      <p>Joana Roxo</p>
+      <img src="img/org/daniela.jpg" alt="" class="image perfil"/>
+      <p>Daniela Rosa</p>
+
+    </li>
+    <li>
+      <img src="img/org/luisa.jpg" alt="" class="image perfil"/>
+      <p>Luisa Brito</p>
+      <img src="img/org/tomas.jpg" alt="" class="image perfil"/>
+      <p>Tomás Amaral</p>
+
+    </li>
+    <li>
+      <img src="img/org/pedro.jpg" alt="" class="image perfil"/>
+      <p>Pedro Neves</p>
+      <img src="img/org/raimundo.jpg" alt="" class="image perfil"/>
+      <p>António Raimundo</p>
+
+    </li>
+    <li>
+      <img src="img/org/prendi.png" alt="" class="image perfil"/>
+      <p>Gonçalo Prendi</p>
+      <img src="img/org/alves.jpg" alt="" class="image perfil"/>
+      <p>João Alves</p>
+
+    </li>
+
+    <li>
+      <h1 class="vertical">Docentes</h1>
+    </li>
+    <li>
+      <img src="http://0.academia-photos.com/53339/62570/68250/s200_jorge.costa.jpg" alt="" class="image perfil"/>
+      <p>Jorge Costa</p>
+      <img src="http://ict-2014.org/images/pedro.jpg" alt="" class="image perfil"/>
+      <p>Pedro Sebastião</p>
+    </li>
+    <li>
+      <img src="img/org/cancela.jpg" alt="" class="image perfil"/>
+      <p>Luís Cancela</p>
+      <img src="img/org/ricardo.jpg" alt="" class="image perfil"/>
+      <p>Ricardo Fonseca</p>
+    </li>
+    <li>
+      <img src="img/org/monica.jpg" alt="" class="image perfil"/>
+      <p>Mónica Pacheco</p>
+      <img src="https://ciencia.iscte-iul.pt/public/photo/secfc" alt="" class="image perfil"/>
+      <p>Sara Eloy</p>
+    </li>
+    <li>
+      <img src="https://ciencia.iscte-iul.pt/public/photo/acfvm" alt="" class="image perfil"/>
+      <p>Ana Vaz Milheiro</p>
+      <img src="img/org/ducla.jpg" alt="" class="image perfil"/>
+      <p>Luis Ducla Soares</p>
+    </li>
+    <li>
+      <img src="img/org/tormenta.png" alt="" class="image perfil"/>
+      <p>Paulo Tormenta</p>
+    </li>
+
+
+</ul>
+</div>
+  <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+  <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+</div>
+        
+        <br />
+      </div>
+
+
+
+   <div id="media" style="overflow: hidden;" >
+        <header>
+          <h1>Media</h1>
+        </header>   
+          <div class="container">
+            
+            <div class="row">
+
+          <div class="col-md-8 col-md-offset-2">
+          <iframe align="center" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=45216724@N07&set_id=72157642346376725&text=" frameBorder="0" width="700" height="400" scrolling="no"></iframe>
+          </div>
+          </div>
+          
+          <br/>
+
+          <div class="row">
+
+          <div class="col-md-8 col-md-offset-2">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLVbACfKdsm2oRaWHVFBz0YuC9J-IXxDKI" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          </div>
+
+          </div>
+
+        
+        <br />
+      </div>
+
+
+    <div id="footer" class="blue">
+      <div class="container">
+      
+      <div class="row" style="padding-top:10px">
+      <div class="col-md-3">
+            <section class="3u" style="text-align:center;">
+              <p style="text-align:center;"><strong style="color:white" >Organização</strong></p>
+              <a href="http://iscte-iul.pt/ista.aspx" target="_blank" class="image"><img src="img/ista.png" alt="ISTA" style="max-width:220px" /></a><br /><br />
+
+              <a href="http://ieee-iscteiul.org" target="_blank" class="image"><img src="img/ieee.png" alt="IEEE" style="max-width:150px" /></a><br /><br />
+
+              <a href="https://www.facebook.com/nauiscte" target="_blank" class="image"><img src="img/nau.png" alt="IEEE" style="max-height:45px;width:auto" /></a>
+            </section>
+      </div>
+      <div class="col-md-3">
+        <p style="text-align:center;"><strong style="color:white">Contactos</strong></p>
+              <p>
+                  Av. das Forças Armadas <br />
+                  1649-026 Lisboa <br />
+                  Edifício ISCTE <br />
+                  Tel.: +351 217903000 <br />
+                  Email: fista@iscte.pt
+                <br />
+                <ul class="icons">
+                    <li><a target="_blank" href="https://www.facebook.com/FISTA.ISCTE.IUL" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+                  </ul>
+
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div id="map_canvas"></div>
+      </div>
+      </div>
+        <div class="row" >
+        <div class="col-md-12 text-center">
+        <br>
+          <!-- <p><a href="http://fista.iscte-iul.pt/insc/InscricaoFISTA.html" target="_blank" class="button knowMoreBtn">Regista-te!</a></p> -->
+        </div>
+      </div>
+        <div class="row">
+
+            <div class="col-md-12">
+              
+              <!-- Copyright -->
+                <div class="copyright">
+                    <br>
+                    <small>ISCTE-IUL School of Technology and Architecture (ISTA) @ 2014</small>
+                  
+                </div>
+              
+            </div>
+
+      </div>
+    </div>
+      
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+
+    
+
+    <script>
+
+      $(window).scroll(function() {
+        var windscroll = $(window).scrollTop();
+        var nav = $('#nav');
+        if (windscroll >= 620) {
+          if(!nav.hasClass('fixed')) {
+            nav.addClass('fixed');
+        }        
+      } else {
+        if(nav.hasClass('fixed')) {
+          nav.removeClass('fixed');
+          }
+      } 
+      }).scroll();
+    
+      
+
+      (function($) {
+      $(function() {
+          var jcarousel1 = $('.organizacao');
+          var jcarousel2 = $('.empresas');
+          jcarousel1.on('jcarousel:reload jcarousel:create', function () {
+                  var width = jcarousel1.innerWidth();
+                  if (width >= 1200) {
+                      width = width / 9;
+                  } else if (width >= 900) {
+                      width = width / 8;
+                  } else if (width >= 600) {
+                      width = width / 5;
+                  } else if (width >= 300) {
+                      width = width / 3;
+                  }
+                  jcarousel1.jcarousel('items').css('width', width + 'px');
+              })
+              .jcarousel();
+          $('.jcarousel-control-prev')
+              .jcarouselControl({
+                  target: '-=3'
+              });
+          $('.jcarousel-control-next')
+              .jcarouselControl({
+                  target: '+=3'
+              });
+          jcarousel2.on('jcarousel:reload jcarousel:create', function () {
+                  var width = jcarousel2.innerWidth();
+                  if (width >= 1200) {
+                      width = width / 8;
+                  } else if (width >= 900) {
+                      width = width / 7;
+                  } else if (width >= 600) {
+                      width = width / 3;
+                  } else if (width >= 300) {
+                      width = width / 2;
+                  }
+                  jcarousel2.jcarousel('items').css('width', width + 'px');
+              })
+              .jcarousel({
+                  wrap: 'circular'
+              });
+          $('.jcarousel-control-prev')
+              .jcarouselControl({
+                  target: '-=3'
+              });
+          $('.jcarousel-control-next')
+              .jcarouselControl({
+                  target: '+=3'
+              });
+          });
+          var FF = !(window.mozInnerScreenX == null);
+          if (FF) {
+            //var $root = $('window');
+            $('a.scrolly').click(function() {
+                var href = $.attr(this, 'href');
+                window.animate({
+                    scrollTop: $(href).offset().top
+                }, 1000, function () {
+                    window.location.hash = ''
+                });
+                return false;
+            });
+          } else {
+            var $root = $('html, body');  
+            $('a.scrolly').click(function() {
+                var href = $.attr(this, 'href');
+                $root.animate({
+                    scrollTop: $(href).offset().top - 45
+                }, 1000, function () {
+                    //window.location.hash = ''
+                });
+                return false;
+            });
+          }
+
+    })(jQuery);
+    setInterval("$('.empresas').jcarousel('scroll', '+=1')", 2000);
+        
+    </script>
+    <script src="js/analytics.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+      <script>
+        var map;
+        var myLatlng = new google.maps.LatLng(38.748753, -9.153692);
+        function initialize() {
+          var mapOptions = {
+            zoom: 17,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+          var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'FISTA 202014'
+        });
+        }
+        
+        google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
+  </body>
+</html>
